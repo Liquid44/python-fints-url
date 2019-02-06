@@ -1,3 +1,5 @@
+# Notice - Forked - missing Databse repaired! (This version works)
+
 # German Bank FinTS Url Finder
 This is a python module that can be used to obtain the FinTS URL of german banks.
 As of my knowledge, there's no public available API to request them.
