@@ -3,8 +3,8 @@ from enum import Enum
 
 def update():
 
-    print('Fetching aqbanking DB...')
-    response = requests.get("https://github.com/aqbanking/aqbanking/raw/master/src/plugins/bankinfo/generic/de.tar.bz2")
+    print('Fetching Liquid44 DB -aqbanking... ')
+    response = requests.get("https://github.com/Liquid44/python-fints-url/raw/master/de.tar.bz2")
     tar_bz2_obj = io.BytesIO(response.content)
 
     print('Parsing fints data...')
