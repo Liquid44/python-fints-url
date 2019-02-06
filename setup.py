@@ -20,7 +20,7 @@ class BuildPyCommand(setuptools.command.build_py.build_py):
     setuptools.command.build_py.build_py.run(self)
 
 setup(name='fints-url',
-      version='0.6',
+      version='0.7',
       description='FinTS URL Retriever',
       long_description='FinTS URL Retriever is a small library to retrieve the FinTS URLs of german banks.',
       classifiers=[
@@ -30,9 +30,9 @@ setup(name='fints-url',
         'Topic :: Office/Business :: Financial :: Accounting',
       ],
       keywords='fints url bank german iban code',
-      url='http://github.com/dr-duplo/python-fints-url',
-      author='dr-duplo',
-      author_email='monsieur.cm@gmx.de',
+      url='http://github.com/Liquid44/python-fints-url',
+      author='liquid44',
+      author_email='L44@tuta.io',
       license='MIT',
       packages=['fints_url'],
       install_requires=[
