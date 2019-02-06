@@ -1,4 +1,4 @@
-# Notice - Forked - missing Databse repaired! (This version works)
+# Missing Database repaired! (This version works)
 
 # German Bank FinTS Url Finder
 This is a python module that can be used to obtain the FinTS URL of german banks.
