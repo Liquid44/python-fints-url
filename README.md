@@ -18,7 +18,7 @@ The module can be used as standalone script or library.
 
 ### Installation
 ```
-pip3 install fints-url
+pip3 install -e .
 ```
 
 ### Command Line Interface
